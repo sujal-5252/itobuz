@@ -1,0 +1,23 @@
+body {
+  background-color: aliceblue;
+  padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(auto-fit, minmax(300px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  justify-content: center;
+}
+
+.items {
+  min-width: 300px;
+  min-height: 300px;
+  border: red solid 1px;
+}
